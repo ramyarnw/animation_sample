@@ -1,3 +1,6 @@
+import 'package:animation_sample/dot_screen.dart';
+import 'package:animation_sample/heart_beat.dart';
+import 'package:animation_sample/icon.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const AnimationIcon(),
     );
   }
 }
